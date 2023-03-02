@@ -22,7 +22,7 @@ class _combo2State extends State<combo2> {
               height: double.infinity,
               width: double.infinity,
               child: Image.asset(
-                "assets/images/flower.jpg",
+                "assets/images/combo3.png",
                 fit: BoxFit.fill,
               ),
             ),
@@ -71,28 +71,45 @@ class _combo2State extends State<combo2> {
                     ],
                   ),
                 ),
-
-
-                  Transform.rotate(
-                    angle: pi / 2,
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Transform.translate(
-                          offset: Offset(100,-150),
-                          child: Text(
-                            "KODAK RETINA \n TYPE 100",
-                            style: GoogleFonts.alatsi(
-                                color: Colors.grey.shade600, fontSize: 25),
-                          ),
+                Transform.rotate(
+                  angle: pi / 2,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Transform.translate(
+                        offset: Offset(100, -150),
+                        child: Text(
+                          "KODAK RETINA \n TYPE 100",
+                          style: GoogleFonts.alatsi(
+                              color: Colors.grey.shade600, fontSize: 25),
                         ),
-                        Text("type 010 Retina l")
-                      ],
-                    ),
+                      ),
+                    ],
                   ),
-
+                ),
                 Transform.translate(
-                  offset: Offset(135, 430),
+                  offset: Offset(110, 350),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Text(
+                        "Type 010 Retina l",
+                        style: GoogleFonts.alatsi(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.grey.shade700),
+                      ),
+                      Text(
+                        "1946 to 1949",
+                        style: GoogleFonts.alatsi(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.grey.shade400,
+                            fontSize: 12),
+                      ),
+                    ],
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(140, 420),
                   child: Icon(
                     Icons.menu,
                     color: Colors.grey,
@@ -100,7 +117,7 @@ class _combo2State extends State<combo2> {
                   ),
                 ),
               ],
-            )
+            ),
           ],
         ),
       ),
