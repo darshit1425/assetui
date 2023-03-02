@@ -27,11 +27,10 @@ class _Potter8State extends State<Potter8> {
                       letterSpacing: 1, color: Colors.grey, fontSize: 20)),
             ),
             Padding(
-              padding: EdgeInsets.only(left: 300, top: 50),
+              padding: EdgeInsets.only(left: 400, top: 70),
               child: Text(
                 "2018",
-                style: GoogleFonts.anybody(
-                    color: Colors.grey, fontSize: 20),
+                style: GoogleFonts.anybody(color: Colors.grey, fontSize: 20),
               ),
             ),
             Padding(
@@ -46,8 +45,7 @@ class _Potter8State extends State<Potter8> {
               padding: EdgeInsets.only(left: 30, top: 220),
               child: Text(
                 "Luther van Hudson",
-                style: GoogleFonts.lato(
-                    color: Colors.grey,  fontSize: 20),
+                style: GoogleFonts.lato(color: Colors.grey, fontSize: 20),
               ),
             ),
             Align(
